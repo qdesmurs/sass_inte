@@ -1,0 +1,39 @@
+.monHeader {
+  background-color: #281400; }
+  .monHeader .list-inline {
+    color: white;
+    margin-left: 2em;
+    font-size: 1.8em;
+    font-family: 'Alegreya Sans', sans-serif; }
+    .monHeader .list-inline span {
+      padding: 1em;
+      font-size: 0.7em; }
+  .monHeader .marginHeader {
+    padding: 15em;
+    color: white;
+    font-family: 'Domine', serif; }
+    .monHeader .marginHeader h1, .monHeader .marginHeader button {
+      text-transform: uppercase; }
+    .monHeader .marginHeader h1, .monHeader .marginHeader h2 {
+      font-weight: bold;
+      font-size: 2.7em;
+      margin-bottom: 1em; }
+    .monHeader .marginHeader button {
+      background-color: #A28F61;
+      border-radius: 0.5em;
+      padding: 1em 3em;
+      border: none;
+      font-weight: bold; }
+
+.monMain .text-center {
+  font-family: 'Domine', serif;
+  font-size: 3em;
+  margin: 1em 0; }
+.monMain .col-md-2 {
+  border: 1px solid grey;
+  padding: 0;
+  margin: 0 0.8em 0.8em 0;
+  width: 15.7%;
+  border-radius: 0.5em; }
+
+/*# sourceMappingURL=style.css.map */
