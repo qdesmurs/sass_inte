@@ -30,10 +30,12 @@
   font-size: 3em;
   margin: 1em 0; }
 .monMain .col-md-2 {
-  border: 1px solid grey;
   padding: 0;
   margin: 0 0.8em 0.8em 0;
   width: 15.7%;
-  border-radius: 0.5em; }
+  border-radius: 0.5em;
+  box-shadow: 0px 5px 7px -1px lightgrey; }
+  .monMain .col-md-2 h4, .monMain .col-md-2 h5, .monMain .col-md-2 span {
+    margin-left: 1em; }
 
 /*# sourceMappingURL=style.css.map */
