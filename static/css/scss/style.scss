@@ -3,7 +3,7 @@
 
     .list-inline {
         color: white;
-        margin-left: 2em;
+        margin-left: 5em;
         font-size: 1.8em;
         font-family: 'Alegreya Sans', sans-serif;
 
@@ -155,7 +155,7 @@ section {
         }
     }
 
-    input {
+    .champ {
         border: none;
         box-shadow: 1px 1px 15px 8px lightgrey;
         height: 2em;
@@ -203,7 +203,7 @@ section {
     }
 
     button,
-    input {
+    .champ {
         border: none;
         border-radius: 0.5em;
         height: 2em;
@@ -220,6 +220,66 @@ section {
         margin-right: 1em;
     }
 }
+
+// formulaire
+
+fieldset {
+    display: flex;
+    background-color: whitesmoke;
+    padding: 1em 2em;
+    width: 43%;
+    box-shadow: 0 0 10px lightgrey;
+    border: 1px solid lightgrey;
+    margin: 5em auto;
+    input {
+        width: 100%;
+        border: 1px solid lightblue;
+        font-size: 1.5em;
+    }
+    button {
+        margin-top: 1em;
+    }
+    legend {
+        font-size: 2em;
+        background-color: #0f3e57;
+        box-shadow: 0 0 10px #0f3e57;
+        border: 1px solid #0f3e57;
+        color: white;
+    }
+    label {
+        font-size: 1.5em;
+        flex-wrap: wrap;
+    }
+
+    .password-verdict {
+        display: flex;
+        margin-top: -1em;
+    }
+
+    .checkbox label {
+        padding: 0;
+    }
+
+    .checkbox input[type="checkbox"] {
+        margin-left: 100px;
+        margin-top: 7px;
+        width: 0;
+    }
+
+    .btn-danger {
+        margin: 0;
+        vertical-align: bottom;
+        width: 17%;
+    }
+
+    #hidden {
+        width: 10px;
+        height: 10px;
+        float: right;
+        margin-top: 2em;
+    }
+}
+
 @media screen and(max-width: 640px) {
     .monHeader {
         .list-inline {
@@ -253,5 +313,7 @@ section {
             width: 100%;
         }
     }
-
+    fieldset {
+        width: 100%;
+    }
 }
