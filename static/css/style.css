@@ -24,6 +24,10 @@
       padding: 1em 3em;
       border: none;
       font-weight: bold; }
+  .monHeader .glyphicon-menu-down {
+    padding: 1em;
+    font-size: 1.5em;
+    color: white; }
 
 .monMain .text-center {
   font-family: 'Domine', serif;
@@ -37,5 +41,40 @@
   box-shadow: 0px 5px 7px -1px lightgrey; }
   .monMain .col-md-2 h4, .monMain .col-md-2 h5, .monMain .col-md-2 span {
     margin-left: 1em; }
+  .monMain .col-md-2 h4 {
+    color: #a28f61; }
+  .monMain .col-md-2 .onsale {
+    color: #ffcc17; }
+  .monMain .col-md-2 .soldout {
+    color: #929292; }
+  .monMain .col-md-2 span {
+    padding-bottom: 1em; }
+
+.monFooter {
+  background-color: #0f3e57;
+  padding: 2em 8em 2em 20em;
+  margin-top: 5em; }
+  .monFooter a, .monFooter dt, .monFooter li {
+    color: white;
+    list-style-type: none;
+    line-height: 3em; }
+  .monFooter ul {
+    padding: 0; }
+  .monFooter dl {
+    margin: auto; }
+  .monFooter dt {
+    font-family: 'Domine', serif;
+    font-size: 2em; }
+  .monFooter input, .monFooter button {
+    border: none;
+    border-radius: 0.5em;
+    height: 2em;
+    text-align: center; }
+  .monFooter button {
+    background-color: #0f3e57;
+    border: 1px solid white;
+    color: white; }
+  .monFooter i {
+    margin-right: 1em; }
 
 /*# sourceMappingURL=style.css.map */

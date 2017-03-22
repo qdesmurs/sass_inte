@@ -30,6 +30,11 @@
             font-weight: bold;
         }
     }
+    .glyphicon-menu-down {
+        padding: 1em;
+        font-size: 1.5em;
+        color: white;
+    }
 }
 
 .monMain {
@@ -47,5 +52,52 @@
         h4, h5, span {
             margin-left: 1em;
         }
+        h4 {
+            color: #a28f61;
+        }
+        .onsale {
+            color: #ffcc17;
+        }
+        .soldout {
+            color: #929292;
+        }
+        span {
+            padding-bottom: 1em;
+        }
+    }
+}
+
+.monFooter {
+    background-color: #0f3e57;
+    padding: 2em 8em 2em 20em;
+    margin-top: 5em;
+    a, dt, li {
+        color: white;
+        list-style-type: none;
+        line-height: 3em;
+    }
+    ul {
+        padding: 0;
+    }
+    dl {
+        margin: auto;
+    }
+    dt {
+        font-family: 'Domine', serif;
+        font-size: 2em;
+    }
+    input, button {
+        border: none;
+        border-radius: 0.5em;
+        height: 2em;
+        text-align: center;
+    }
+    button {
+        background-color: #0f3e57;
+        border: 1px solid white;
+        color: white;
+    }
+    i {
+        margin-right: 1em;
     }
 }
