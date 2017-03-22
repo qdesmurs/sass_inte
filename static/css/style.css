@@ -12,9 +12,11 @@
     padding: 15em;
     color: white;
     font-family: 'Domine', serif; }
-    .monHeader .marginHeader h1, .monHeader .marginHeader button {
+    .monHeader .marginHeader button,
+    .monHeader .marginHeader h1 {
       text-transform: uppercase; }
-    .monHeader .marginHeader h1, .monHeader .marginHeader h2 {
+    .monHeader .marginHeader h1,
+    .monHeader .marginHeader h2 {
       font-weight: bold;
       font-size: 2.7em;
       margin-bottom: 1em; }
@@ -31,6 +33,33 @@
   .monHeader a {
     color: white; }
 
+h3 {
+  margin: 0 0 1em;
+  font-family: 'Domine', serif;
+  font-size: 3em;
+  margin: 1em 0; }
+
+section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto; }
+  section article {
+    width: 15%;
+    box-shadow: 0 5px 7px -1px lightgrey;
+    margin-bottom: 1em; }
+  section img {
+    width: 100%; }
+  section h4,
+  section h5,
+  section span {
+    padding-left: 1em; }
+  section .onsale {
+    color: #ffcc17; }
+  section .soldout {
+    color: #929292; }
+
 .monMain .text-center {
   font-family: 'Domine', serif;
   font-size: 3em;
@@ -40,11 +69,13 @@
   margin: 0 0.8em 0.8em 0;
   width: 15.7%;
   border-radius: 0.5em;
-  box-shadow: 0px 5px 7px -1px lightgrey; }
+  box-shadow: 0 5px 7px -1px lightgrey; }
   .monMain .col-md-2 img {
     width: 100%;
     height: auto; }
-  .monMain .col-md-2 h4, .monMain .col-md-2 h5, .monMain .col-md-2 span {
+  .monMain .col-md-2 h4,
+  .monMain .col-md-2 h5,
+  .monMain .col-md-2 span {
     margin-left: 1em; }
   .monMain .col-md-2 h4 {
     color: #a28f61; }
@@ -58,9 +89,9 @@
   margin-bottom: 7em; }
 .monMain .col-md-5 {
   padding-left: 3em; }
-  .monMain .col-md-5 h3 {
-    margin: 0;
-    margin-bottom: 1em; }
+  .monMain .col-md-5 h6 {
+    font-size: 2em;
+    margin: 0 0 1em; }
 .monMain .col-md-10 {
   padding-left: 5em; }
 .monMain .col-md-3 {
@@ -79,12 +110,16 @@
   height: 2em;
   width: 3em;
   border-radius: 0.5em; }
+.monMain .button {
+  width: 8em; }
 
 .monFooter {
   background-color: #0f3e57;
   padding: 2em 8em 2em 20em;
   margin-top: 5em; }
-  .monFooter a, .monFooter dt, .monFooter li {
+  .monFooter a,
+  .monFooter dt,
+  .monFooter li {
     color: white;
     list-style-type: none;
     line-height: 3em; }
@@ -95,7 +130,8 @@
   .monFooter dt {
     font-family: 'Domine', serif;
     font-size: 2em; }
-  .monFooter input, .monFooter button {
+  .monFooter button,
+  .monFooter input {
     border: none;
     border-radius: 0.5em;
     height: 2em;
@@ -106,5 +142,27 @@
     color: white; }
   .monFooter i {
     margin-right: 1em; }
+
+@media screen and (max-width: 640px) {
+  .monHeader .list-inline {
+    margin-left: 0; }
+  .monHeader .marginHeader {
+    padding: 2em; }
+
+  .monMain {
+    padding: 1em; }
+    .monMain .col-md-2 {
+      width: 50%; }
+    .monMain .col-md-5, .monMain .col-md-10 {
+      padding: 0; }
+    .monMain .col-md-3 {
+      padding-bottom: 3em; }
+
+  .monFooter {
+    padding: 2em;
+    margin-top: 5em; }
+
+  section article {
+    width: 100%; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,11 +3,12 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name=viewport content=width=device-width, initial-scale=1.0>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sass_inte</title>
     <link rel="stylesheet" href="./static/external/bower_components/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./static/external/font-awesome-4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100|Domine|Droid+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans:100" rel="stylesheet">
     <link rel="stylesheet" href="./static/css/style.css">
 </head>
 
@@ -22,7 +23,7 @@
                     <li>Store</li>
                     <li>Blog</li>
                     <li><a href="panier.html">Cart</a></li>
-                    <span class="glyphicon glyphicon-search pull-right" aria-hidden="true"></span>
+                    <li class="pull-right"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></li>
                 </ul>
                 <div class="marginHeader">
                     <h1 class="text-center">Sundays</h1>
@@ -37,14 +38,36 @@
     <div class="container">
         <div class="row monMain">
             <h3 class="text-center">Spring Summer 2017</h3>
-            <div class="col-md-2">
-                <img src="http://lorempixel.com/200/300/" alt="img_product">
-            </div>
-            <div class="col-md-5">
-                <h3>Winter Scarf</h3>
-            </div>
-            <div class="col-md-10">
-                <p class="lorem">Le petit recap produit lalalala lala la</p>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Img</th>
+                        <th>Product</th>
+                        <th>Quantity</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="http://lorempixel.com/50/75/" alt="img_product"></td>
+                        <td>Winter Scarf</td>
+                        <td><input type="number" value="2"></td>
+                        <td>180$</td>
+                        <td>360$</td>
+                    </tr>
+                    <tr>
+                        <td><img src="http://lorempixel.com/50/75/" alt="img_product"></td>
+                        <td>Winter Scarf</td>
+                        <td><input type="number" value="4"></td>
+                        <td>180$</td>
+                        <td>720$</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="col-md-12 pull-right">
+                <p>Total : 1080$</p>
+                <button type="button" name="button" class="button">Place Order</button>
             </div>
         </div>
     </div>
