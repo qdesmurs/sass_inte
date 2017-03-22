@@ -184,6 +184,8 @@ fieldset {
     height: 10px;
     float: right;
     margin-top: 2em; }
+  fieldset textarea {
+    width: 100%; }
 
 @media screen and (max-width: 640px) {
   .monHeader .list-inline {

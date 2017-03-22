@@ -41,7 +41,7 @@
                     <div class="col-md-12">
                         <fieldset>
                             <legend class="text-center">Formulaire</legend>
-                            <form data-toggle="validator" role="form">
+                            <form data-toggle="validator" role="form" method="post">
                                 <div class="form-group">
                                     <label for="inputName" class="control-label">Pseudo :</label>
                                     <input type="text" class="form-control" id="inputName" maxlength="20" data-minlength="5" placeholder="5 to 20 characters ;)" required>
@@ -63,8 +63,10 @@
                                             <div class="help-block with-errors"></div>
                                         </div>
                                         <div class="form-group col-sm-12">
-                                            <label>Comment :</label>
-                                            <textarea name="name" rows="8" cols="51"></textarea>
+                                        <label class="control-label">Comment :</label>
+                                        </div>
+                                        <div class="form-group col-sm-12">
+                                            <textarea name="name" rows="8"></textarea>
                                         </div>
                                     </div>
                                 </div>
