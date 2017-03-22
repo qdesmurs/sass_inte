@@ -41,6 +41,9 @@
   width: 15.7%;
   border-radius: 0.5em;
   box-shadow: 0px 5px 7px -1px lightgrey; }
+  .monMain .col-md-2 img {
+    width: 100%;
+    height: auto; }
   .monMain .col-md-2 h4, .monMain .col-md-2 h5, .monMain .col-md-2 span {
     margin-left: 1em; }
   .monMain .col-md-2 h4 {
@@ -51,10 +54,31 @@
     color: #929292; }
   .monMain .col-md-2 span {
     padding-bottom: 1em; }
-.monMain p {
-  margin-bottom: 8em; }
-.monMain .col-md-1 {
+.monMain .lorem {
+  margin-bottom: 7em; }
+.monMain .col-md-5 {
+  padding-left: 3em; }
+  .monMain .col-md-5 h3 {
+    margin: 0;
+    margin-bottom: 1em; }
+.monMain .col-md-10 {
+  padding-left: 5em; }
+.monMain .col-md-3 {
   padding: 0; }
+  .monMain .col-md-3 img {
+    margin-right: 0.9em; }
+.monMain input {
+  border: none;
+  box-shadow: 1px 1px 15px 8px lightgrey;
+  height: 2em;
+  width: 3em;
+  border-radius: 0.5em; }
+.monMain button {
+  border: none;
+  box-shadow: 1px 1px 15px 8px lightgrey;
+  height: 2em;
+  width: 3em;
+  border-radius: 0.5em; }
 
 .monFooter {
   background-color: #0f3e57;
